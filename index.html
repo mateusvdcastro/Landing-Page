@@ -22,9 +22,10 @@
             <nav>
                 <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">intro</a></li>
-                    <li><a href="#grid-one">grid-one</a></li>
-                    <li><a href="#gallery">gallery</a></li>
-                    <li><a href="#grid-two">grid-two</a></li>
+                    <li><a href="#grid-one">Experiências <br> Técnicas</a></li>
+                    <li><a href="#grid-three">Experiências <br> Empresariais</a></li>
+                    <li><a href="#grid-two">Experiências <br> Acadêmicas</a></li>
+                    <li><a href="#gallery">Mídias <br> Sociais</a></li>
                     <li><a href="#pricing">pricing</a></li>
                     <li><a href="#contact">contact</a></li>
                 </ul>
@@ -61,8 +62,9 @@
             </p>
                 Já desenvolvi aplicações Web em HTML, CSS e Python. Este mesmo portifólio foi feito em HTML
                 e CSS puro e outras, como um Blog e Agenda no Framework Django.
+                <br><br>
 
-                <video controls width="500">
+                <video class="video_agenda" controls width="500">
                     <source src="./assets/media/Agenda Django.mp4" type="video/mp4">
                 </video>
             <p>
@@ -117,6 +119,53 @@
         </div>
     </section>
 
+    <section id="grid-three" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Experiências Empresariais</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid_company">
+                <article>
+                    <h3>ScitecJr Consultoria em Ciência e Tecnologia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article>
+                <!-- <article>
+                    <h3>Bacharelado em Engenharia da Computação</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article>
+                <article>
+                    <h3>Bolsista CNPQ em Aprendizado de máquina</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article> -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Experiências Acadêmicas</h2>
+            <p class="grid-description">Uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <img src="./assets/img/Unifesp_completa_policromia_RGB.png" alt="Logo" width="300">
+                    <br> <br> <br>
+                    <h3>Bacharelado em Ciência e Tecnologia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article>
+                <article>
+                    <img src="./assets/img/Unifesp_completa_policromia_RGB.png" alt="Logo" width="300">
+                    <br> <br> <br>
+                    <h3>Bacharelado em Engenharia da Computação</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article>
+                <article>
+                    <img src="./assets/img/Unifesp_completa_policromia_RGB.png" alt="Logo" width="300">
+                    <br> <br> <br>
+                    <h3>Bolsista CNPQ em Aprendizado de máquina</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
     <!-- https://source.unsplash.com/random/360x360 -->
     <section id="gallery" class="grid-one white-bg section">
@@ -125,22 +174,24 @@
             <p class="grid-description">Uma breve descrição</p>
             <div class="grid">
                 <div class="gallery-img">
-                    <img src="https://source.unsplash.com/random/360x360?=1" alt="random image from unsplash">
+                    <a href="https://github.com/mateusvdcastro" target="_blank">
+                        <img src="./assets/img/Github Logo.png" alt="Descrição da imagem" width="300">
+                    </a>
                 </div>
                 <div class="gallery-img">
-                    <div class="gallery-img">
-                        <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
-                    </div>
+                    <a href="https://www.linkedin.com/in/mateus-vespasiano-de-castro/" target="_blank">
+                        <img src="./assets/img/Linkedin.png" alt="Descrição da imagem" width="350">
+                    </a>
                 </div>
                 <div class="gallery-img">
-                    <div class="gallery-img">
-                        <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
-                    </div>
+                    <a href="https://www.instagram.com/mateusvdcastro/" target="_blank">
+                        <img src="./assets/img/Instagram.webp" alt="Descrição da imagem" width="280" style="padding-left: 20px; padding-top: 40px;">
+                    </a>
                 </div>
                 <div class="gallery-img">
-                    <div class="gallery-img">
-                        <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
-                    </div>
+                    <a href="http://lattes.cnpq.br/6510788719394521" target="_blank">
+                        <img src="./assets/img/Lattes.jpg" alt="Descrição da imagem" width="400" style="padding-right: 40px; padding-top: 40px;">
+                    </a>
                 </div>
                 <div class="gallery-img">
                     <div class="gallery-img">
@@ -156,30 +207,10 @@
         </div>
     </section>
 
-    <section id="grid-two" class="grid-one main-bg section">
-        <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">My Grid</h2>
-            <p class="grid-description">Uma breve descrição</p>
-            <div class="grid">
-                <article>
-                    <h3>Teste 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
-                </article>
-                <article>
-                    <h3>Teste 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
-                </article>
-                <article>
-                    <h3>Teste 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam ipsum est fuga neque exercitationem earum ex facilis obcaecati cupiditate reiciendis sit dicta repellat impedit quae nulla, distinctio inventore quia?</p>
-                </article>
-            </div>
-        </div>
-    </section>
 
     <section id="pricing" class="white-bg section">
         <div class="main-content top3-content">
-            <h2>pricing</h2>
+            <h2>Certificações</h2>
             <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
             </p>

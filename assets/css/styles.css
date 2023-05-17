@@ -168,6 +168,11 @@ body {
     transform: rotate(5deg);
 }
 
+.grid_company {
+    display: grid;
+    grid-template-columns: auto;
+}
+
 .grid-one-content {
     display: flex;
     flex-flow: column wrap;
@@ -437,4 +442,11 @@ h6 {
 
 p {
     margin-bottom: 3rem;
+}
+
+.video_agenda {
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: center;
 }
