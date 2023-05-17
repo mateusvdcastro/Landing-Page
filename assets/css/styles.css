@@ -170,7 +170,7 @@ body {
 
 .grid_company {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(2,auto);
 }
 
 .grid-one-content {
