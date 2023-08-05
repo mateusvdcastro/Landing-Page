@@ -2,7 +2,8 @@
     --primary-color: #0A1128;
     --white-color: #fff;
     --light-gray-color: #EEEEEE;
-    --secundary-color:darkblue; 
+    --secundary-color:darkblue;
+    --nav-color: #0a0ded;
     --gap: 3rem;
 }
 
@@ -19,6 +20,7 @@ a {
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 } 
 
 body {
@@ -48,6 +50,7 @@ body {
 
 .section {
     min-height: 100vh;
+    /* padding: 10rem 9% 2rem; */
 }
 
 .menu{
@@ -70,17 +73,18 @@ body {
 }
 
 .menu ul {
-    list-style: none;
     display: flex;
+    list-style: none;
 }
 
 .menu h1 {
     font-size: 2.3rem;
     color: var(--primary-color);
+    cursor: default;
 }
 
 .menu h1 a {
-    color: inherit;  /* inherit the color of the class menu h1 */
+    color: inherit;  /* inherit color of class menu h1 */
 }
 
 .menu ul li a {
@@ -89,9 +93,14 @@ body {
     font-size: 1.8rem;
     color: var(--primary-color);
     position: relative;
+    transition: .3s;
 }
 
-.menu ul li a::after {
+.menu ul li a:hover {
+    color: var(--nav-color);
+}
+
+.menu ul li a::after { /* ::after says that in the end of each a tag, it will add a underline effect */
     content: '';
     position: absolute;
     bottom: 1rem;
@@ -129,6 +138,11 @@ body {
 .intro-img img, .intro-img svg {
     max-width: 100%;
     height: auto;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -205,11 +219,11 @@ body {
     
 }
 
-.responsive-table{
+/* .responsive-table{
     overflow: hidden;
     overflow-x: auto;
     overflow-y: auto;
-}
+} */
 
 body .full-width{
     width: 100%;
